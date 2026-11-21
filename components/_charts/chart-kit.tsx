@@ -598,17 +598,20 @@ export function Segmented<T extends string>({
   value,
   onChange,
   label,
+  fill = false,
 }: {
   options: readonly { value: T; label: string }[];
   value: T;
   onChange: (value: T) => void;
   /** Names the group for screen readers. */
   label: string;
+  /** Span the container with equal-width options, for form fields. Otherwise it hugs its options. */
+  fill?: boolean;
 }) {
   const reduce = useReducedMotion();
   const id = useId();
   return (
-    <div role="radiogroup" aria-label={label} className="flex rounded-[10px] bg-foreground/5 p-0.5">
+    <div role="radiogroup" aria-label={label} className={cn("flex bg-foreground/5", fill ? "h-10 w-full rounded-xl p-1" : "w-fit rounded-[10px] p-0.5")}>
       {options.map((o) => {
         const on = o.value === value;
         return (
@@ -619,7 +622,8 @@ export function Segmented<T extends string>({
             aria-checked={on}
             onClick={() => onChange(o.value)}
             className={cn(
-              "relative h-6 cursor-pointer rounded-lg px-2 text-xs font-medium outline-none transition-colors duration-150 focus-visible:ring-2 focus-visible:ring-foreground/20",
+              "relative cursor-pointer rounded-lg px-2 font-medium outline-none transition-colors duration-150 focus-visible:ring-2 focus-visible:ring-foreground/20",
+              fill ? "h-8 flex-1 text-[13px]" : "h-6 text-xs",
               on ? "text-foreground" : "text-muted-foreground hover:text-foreground",
             )}
           >
@@ -630,7 +634,8 @@ export function Segmented<T extends string>({
                 transition={reduce ? { duration: 0 } : { type: "spring", bounce: 0, duration: 0.3 }}
               />
             )}
-            <span className="relative">{o.label}</span>
+            {/* z-10: the sliding pill belongs to the newly picked option, which can come later in the DOM. */}
+            <span className="relative z-10">{o.label}</span>
           </button>
         );
       })}
