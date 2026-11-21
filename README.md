@@ -52,6 +52,12 @@ For example:
 npx shadcn@latest add https://uibrik.com/r/accordion.json
 ```
 
+Or install straight from this repo:
+
+```bash
+npx shadcn@latest add Malay146/uibrik/accordion
+```
+
 Files land in `components/uibrik/`. You can also copy a file from [`components/`](./components) by hand. Components import `cn` from `@/lib/utils` ([included here](./lib/utils.ts)), and some need extra theme CSS that only the CLI adds, so the CLI is the easier path.
 
 Requirements: React 19 and Tailwind CSS v4.
