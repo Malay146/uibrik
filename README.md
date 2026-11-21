@@ -70,7 +70,7 @@ Connect the MCP server and ask for what you need, like "add a pricing toggle".
 claude mcp add --transport http uibrik https://uibrik.com/mcp
 ```
 
-Setup for Cursor, VS Code and others is in the [MCP docs](https://uibrik.com/docs/mcp).
+Setup for Cursor, VS Code and others is in the [MCP docs](https://uibrik.com/docs/mcp) and the [uibrik-mcp](https://github.com/Malay146/uibrik-mcp) repo, which has ready-to-copy client configs.
 
 ## Components
 
