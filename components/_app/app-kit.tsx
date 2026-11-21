@@ -393,7 +393,7 @@ export function Avatar({ name, src, size = 32, className }: { name: string; src?
     >
       {src ? (
         // eslint-disable-next-line @next/next/no-img-element
-        <img src={src} alt="" className="size-full object-cover" />
+        <img src={src} alt="" loading="lazy" decoding="async" className="size-full object-cover" />
       ) : (
         initials(name)
       )}
@@ -426,11 +426,12 @@ export function Progress({
       aria-valuenow={Math.round(pct)}
       className={cn("h-1.5 w-full overflow-hidden rounded-full bg-foreground/[0.07]", className)}
     >
+      {/* Full width, cut back with clip-path: animating width re-lays out the page on every frame. */}
       <motion.div
         className={cn("h-full rounded-full", tone ? TONES[tone] : "bg-foreground")}
-        initial={{ width: reduce ? `${pct}%` : 0 }}
-        animate={{ width: `${pct}%` }}
-        transition={{ duration: reduce ? 0 : 0.6, ease: EASE_OUT }}
+        initial={reduce ? false : { clipPath: "inset(0 100% 0 0 round 9999px)" }}
+        animate={{ clipPath: `inset(0 ${100 - pct}% 0 0 round 9999px)` }}
+        transition={{ duration: reduce ? 0 : 0.5, ease: EASE_OUT }}
       />
     </div>
   );
@@ -521,8 +522,10 @@ export function Tabs<T extends string>({
                 transition={reduce ? { duration: 0 } : SPRING}
               />
             )}
-            <span className="relative">{o.label}</span>
-            {o.count !== undefined && <span className="relative tabular-nums text-muted-foreground">{o.count}</span>}
+            {/* z-10: the sliding pill belongs to the newly selected tab, which can come later in the
+                DOM, so without it the pill paints over earlier labels as it passes */}
+            <span className="relative z-10">{o.label}</span>
+            {o.count !== undefined && <span className="relative z-10 tabular-nums text-muted-foreground">{o.count}</span>}
           </button>
         );
       })}
@@ -624,7 +627,9 @@ export function Dialog({
   }, [open]);
 
   if (!mounted) return null;
-  const t = { duration: reduce ? 0 : 0.2, ease: EASE_OUT };
+  // An ease that starts gently: a front-loaded curve lands most of the backdrop's dim in the first frame,
+  // which reads as a flash.
+  const t = { duration: reduce ? 0 : 0.22, ease: [0.4, 0, 0.2, 1] as const };
   return createPortal(
     <AnimatePresence>
       {open && (
@@ -651,9 +656,9 @@ export function Dialog({
               side ? "h-full max-w-md" : "max-w-md",
               className,
             )}
-            initial={side ? { opacity: 0, x: reduce ? 0 : 24 } : { opacity: 0, y: reduce ? 0 : 8, scale: reduce ? 1 : 0.98 }}
-            animate={side ? { opacity: 1, x: 0 } : { opacity: 1, y: 0, scale: 1 }}
-            exit={side ? { opacity: 0, x: reduce ? 0 : 24 } : { opacity: 0, y: reduce ? 0 : 4, scale: reduce ? 1 : 0.98 }}
+            initial={side ? { opacity: 0, transform: `translateX(${reduce ? 0 : 24}px)` } : { opacity: 0, transform: reduce ? "none" : "translateY(8px) scale(0.98)" }}
+            animate={side ? { opacity: 1, transform: "translateX(0px)" } : { opacity: 1, transform: "translateY(0px) scale(1)" }}
+            exit={side ? { opacity: 0, transform: `translateX(${reduce ? 0 : 24}px)` } : { opacity: 0, transform: reduce ? "none" : "translateY(4px) scale(0.98)" }}
             transition={t}
           >
             <header className="flex items-start justify-between gap-3 pb-3 pl-4 pr-1 pt-3">
@@ -715,8 +720,8 @@ export function Toaster({ children }: { children: ReactNode }) {
             <motion.div
               key={t.id}
               layout={!reduce}
-              initial={{ opacity: 0, y: reduce ? 0 : 8 }}
-              animate={{ opacity: 1, y: 0 }}
+              initial={{ opacity: 0, transform: `translateY(${reduce ? 0 : 8}px)` }}
+              animate={{ opacity: 1, transform: "translateY(0px)" }}
               exit={{ opacity: 0, transition: { duration: 0.15 } }}
               transition={{ duration: reduce ? 0 : 0.25, ease: EASE_OUT }}
               className="pointer-events-auto flex items-center gap-2.5 rounded-2xl bg-foreground py-2.5 pl-3 pr-4 text-[13px] font-medium text-background shadow-[0_8px_24px_rgb(0_0_0/0.18)]"
