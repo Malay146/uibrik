@@ -855,6 +855,34 @@
       ]
     },
     {
+      "name": "effort-dial",
+      "type": "registry:component",
+      "title": "Effort Dial",
+      "description": "A gauge for customer effort scores: a gradient arc fills from green toward red as the knob follows your finger, ticks light as it passes, it settles into the nearest answer, and a hard answer asks what got in the way.",
+      "categories": [
+        "feedback"
+      ],
+      "dependencies": [
+        "@tabler/icons-react@^3.46.0",
+        "motion@^13.1.1",
+        "react-use-measure@^2.1.7"
+      ],
+      "registryDependencies": [
+        "utils"
+      ],
+      "meta": {
+        "import": "@/registry/effort-dial/effort-dial",
+        "export": "EffortDial"
+      },
+      "files": [
+        {
+          "path": "components/effort-dial/effort-dial.tsx",
+          "type": "registry:component",
+          "target": "@components/uibrik/effort-dial/effort-dial.tsx"
+        }
+      ]
+    },
+    {
       "name": "elastic-slider",
       "type": "registry:component",
       "title": "Elastic Slider",
@@ -2164,6 +2192,34 @@
           "path": "components/notification-stack/notification-stack.tsx",
           "type": "registry:component",
           "target": "@components/uibrik/notification-stack/notification-stack.tsx"
+        }
+      ]
+    },
+    {
+      "name": "nps-strip",
+      "type": "registry:component",
+      "title": "NPS Strip",
+      "description": "A 0 to 10 recommend score on one track: the pick slides between scores in its group's colour, a band below lights the group, and the follow-up question changes for detractors, passives and promoters.",
+      "categories": [
+        "feedback"
+      ],
+      "dependencies": [
+        "@tabler/icons-react@^3.46.0",
+        "motion@^13.1.1",
+        "react-use-measure@^2.1.7"
+      ],
+      "registryDependencies": [
+        "utils"
+      ],
+      "meta": {
+        "import": "@/registry/nps-strip/nps-strip",
+        "export": "NpsStrip"
+      },
+      "files": [
+        {
+          "path": "components/nps-strip/nps-strip.tsx",
+          "type": "registry:component",
+          "target": "@components/uibrik/nps-strip/nps-strip.tsx"
         }
       ]
     },

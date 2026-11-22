@@ -3,12 +3,12 @@
 <h1 align="center">uibrik</h1>
 
 <p align="center">
-  <b>130 free, animated React components.</b><br>
+  <b>132 free, animated React components.</b><br>
   Built with Tailwind CSS v4 and Motion. Install with the shadcn CLI, or let your AI agent do it over MCP.
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/components-130%20free-111111?style=flat-square" alt="components: 130 free">
+  <img src="https://img.shields.io/badge/components-132%20free-111111?style=flat-square" alt="components: 132 free">
   <img src="https://img.shields.io/badge/license-MIT-111111?style=flat-square" alt="license: MIT">
   <img src="https://img.shields.io/badge/React-19-111111?style=flat-square" alt="React: 19">
   <img src="https://img.shields.io/badge/Tailwind%20CSS-v4-111111?style=flat-square" alt="Tailwind CSS: v4">
@@ -259,6 +259,15 @@ Click any component to open its live demo, where you can tweak its props and cop
   </tr>
 </table>
 
+### Feedback
+
+<table>
+  <tr>
+    <td align="center" valign="top" width="33%"><a href="https://uibrik.com/components/effort-dial"><picture><source media="(prefers-color-scheme: dark)" srcset="https://uibrik.com/registry/effort-dial/thumb-dark-sm.webp"><img src="https://uibrik.com/registry/effort-dial/thumb-light-sm.webp" alt="Effort Dial" width="260"></picture><br><b>Effort Dial</b></a></td>
+    <td align="center" valign="top" width="33%"><a href="https://uibrik.com/components/nps-strip"><picture><source media="(prefers-color-scheme: dark)" srcset="https://uibrik.com/registry/nps-strip/thumb-dark-sm.webp"><img src="https://uibrik.com/registry/nps-strip/thumb-light-sm.webp" alt="NPS Strip" width="260"></picture><br><b>NPS Strip</b></a></td>
+  </tr>
+</table>
+
 ### Loaders & Progress
 
 <table>
@@ -465,6 +474,7 @@ Click any component to open its live demo, where you can tweak its props and cop
 | [Download Button](https://uibrik.com/components/download-button) | A download button whose arrow drops into its tray, fills with progress as the percentage counts up, then draws a check and offers Open. | `download-button` |
 | [Draggable Letters](https://uibrik.com/components/draggable-letters) | Letters you can pull apart; they spring home. | `draggable-letters` |
 | [Dropdown Menu](https://uibrik.com/components/dropdown-menu) | A menu with icons, shortcuts, checkbox and radio items and submenus, a sliding highlight and full keyboard control. | `dropdown-menu` |
+| [Effort Dial](https://uibrik.com/components/effort-dial) | A gauge for customer effort scores: a gradient arc fills from green toward red as the knob follows your finger, ticks light as it passes, it settles into the nearest answer, and a hard answer asks what got in the way. | `effort-dial` |
 | [Elastic Slider](https://uibrik.com/components/elastic-slider) | A slider that stretches like rubber past its ends and springs back. | `elastic-slider` |
 | [Email Composer](https://uibrik.com/components/email-composer) | An email composer with recipient chips and suggestions, contact cards on hover, drag-and-drop attachments with upload progress, and a send button that schedules. | `email-composer` |
 | [Event Feed](https://uibrik.com/components/event-feed) | A live feed card where new events drop in at the top with a soft highlight, push the rest down and age in real time. | `event-feed` |
@@ -505,6 +515,7 @@ Click any component to open its live demo, where you can tweak its props and cop
 | [Mute Toggle](https://uibrik.com/components/mute-toggle) | A sound toggle whose waves fold away one at a time before a slash cuts through the speaker, and come back in reverse. | `mute-toggle` |
 | [Notification Bell](https://uibrik.com/components/notification-bell) | A notification bell that swings when something new arrives, rolls its badge count up, and drops the badge into the bell once read. | `notification-bell` |
 | [Notification Stack](https://uibrik.com/components/notification-stack) | Notifications that pile up as panes of frosted glass, fan out on hover and blur away when swiped. | `notification-stack` |
+| [NPS Strip](https://uibrik.com/components/nps-strip) | A 0 to 10 recommend score on one track: the pick slides between scores in its group's colour, a band below lights the group, and the follow-up question changes for detractors, passives and promoters. | `nps-strip` |
 | [On This Page](https://uibrik.com/components/on-this-page) | A section outline where a dot rides a rail with your scroll, subsections fold open as you reach them, and clicking jumps to a section. | `on-this-page` |
 | [Open Source](https://uibrik.com/components/open-source) | A repository card whose stars, forks and contributor count roll up digit by digit on view, with a sparkline that draws in, a language bar, contributor faces that slide in and fan open, and a live feed of commits, merges and releases. | `open-source` |
 | [Org Chart](https://uibrik.com/components/org-chart) | A pan-and-zoom org chart whose teams grow out of and fold back into their manager, with search that flies to a person, a minimap and profile cards. | `org-chart` |
