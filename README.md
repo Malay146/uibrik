@@ -3,12 +3,12 @@
 <h1 align="center">uibrik</h1>
 
 <p align="center">
-  <b>120 free, animated React components.</b><br>
+  <b>130 free, animated React components.</b><br>
   Built with Tailwind CSS v4 and Motion. Install with the shadcn CLI, or let your AI agent do it over MCP.
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/components-120%20free-111111?style=flat-square" alt="components: 120 free">
+  <img src="https://img.shields.io/badge/components-130%20free-111111?style=flat-square" alt="components: 130 free">
   <img src="https://img.shields.io/badge/license-MIT-111111?style=flat-square" alt="license: MIT">
   <img src="https://img.shields.io/badge/React-19-111111?style=flat-square" alt="React: 19">
   <img src="https://img.shields.io/badge/Tailwind%20CSS-v4-111111?style=flat-square" alt="Tailwind CSS: v4">
@@ -161,6 +161,29 @@ Click any component to open its live demo, where you can tweak its props and cop
   <tr>
     <td align="center" valign="top" width="33%"><a href="https://uibrik.com/components/tactile-toggle"><picture><source media="(prefers-color-scheme: dark)" srcset="https://uibrik.com/registry/tactile-toggle/thumb-dark-sm.webp"><img src="https://uibrik.com/registry/tactile-toggle/thumb-light-sm.webp" alt="Tactile Toggle" width="260"></picture><br><b>Tactile Toggle</b></a></td>
     <td align="center" valign="top" width="33%"><a href="https://uibrik.com/components/theme-switch"><picture><source media="(prefers-color-scheme: dark)" srcset="https://uibrik.com/registry/theme-switch/thumb-dark-sm.webp"><img src="https://uibrik.com/registry/theme-switch/thumb-light-sm.webp" alt="Theme Switch" width="260"></picture><br><b>Theme Switch</b></a></td>
+  </tr>
+</table>
+
+### State Changes
+
+<table>
+  <tr>
+    <td align="center" valign="top" width="33%"><a href="https://uibrik.com/components/disabled-reason"><picture><source media="(prefers-color-scheme: dark)" srcset="https://uibrik.com/registry/disabled-reason/thumb-dark-sm.webp"><img src="https://uibrik.com/registry/disabled-reason/thumb-light-sm.webp" alt="Disabled Reason" width="260"></picture><br><b>Disabled Reason</b></a></td>
+    <td align="center" valign="top" width="33%"><a href="https://uibrik.com/components/download-button"><picture><source media="(prefers-color-scheme: dark)" srcset="https://uibrik.com/registry/download-button/thumb-dark-sm.webp"><img src="https://uibrik.com/registry/download-button/thumb-light-sm.webp" alt="Download Button" width="260"></picture><br><b>Download Button</b></a></td>
+    <td align="center" valign="top" width="33%"><a href="https://uibrik.com/components/follow-button"><picture><source media="(prefers-color-scheme: dark)" srcset="https://uibrik.com/registry/follow-button/thumb-dark-sm.webp"><img src="https://uibrik.com/registry/follow-button/thumb-light-sm.webp" alt="Follow Button" width="260"></picture><br><b>Follow Button</b></a></td>
+  </tr>
+  <tr>
+    <td align="center" valign="top" width="33%"><a href="https://uibrik.com/components/live-kbd"><picture><source media="(prefers-color-scheme: dark)" srcset="https://uibrik.com/registry/live-kbd/thumb-dark-sm.webp"><img src="https://uibrik.com/registry/live-kbd/thumb-light-sm.webp" alt="Live Kbd" width="260"></picture><br><b>Live Kbd</b></a></td>
+    <td align="center" valign="top" width="33%"><a href="https://uibrik.com/components/mute-toggle"><picture><source media="(prefers-color-scheme: dark)" srcset="https://uibrik.com/registry/mute-toggle/thumb-dark-sm.webp"><img src="https://uibrik.com/registry/mute-toggle/thumb-light-sm.webp" alt="Mute Toggle" width="260"></picture><br><b>Mute Toggle</b></a></td>
+    <td align="center" valign="top" width="33%"><a href="https://uibrik.com/components/notification-bell"><picture><source media="(prefers-color-scheme: dark)" srcset="https://uibrik.com/registry/notification-bell/thumb-dark-sm.webp"><img src="https://uibrik.com/registry/notification-bell/thumb-light-sm.webp" alt="Notification Bell" width="260"></picture><br><b>Notification Bell</b></a></td>
+  </tr>
+  <tr>
+    <td align="center" valign="top" width="33%"><a href="https://uibrik.com/components/password-peek"><picture><source media="(prefers-color-scheme: dark)" srcset="https://uibrik.com/registry/password-peek/thumb-dark-sm.webp"><img src="https://uibrik.com/registry/password-peek/thumb-light-sm.webp" alt="Password Peek" width="260"></picture><br><b>Password Peek</b></a></td>
+    <td align="center" valign="top" width="33%"><a href="https://uibrik.com/components/read-receipts"><picture><source media="(prefers-color-scheme: dark)" srcset="https://uibrik.com/registry/read-receipts/thumb-dark-sm.webp"><img src="https://uibrik.com/registry/read-receipts/thumb-light-sm.webp" alt="Read Receipts" width="260"></picture><br><b>Read Receipts</b></a></td>
+    <td align="center" valign="top" width="33%"><a href="https://uibrik.com/components/sync-button"><picture><source media="(prefers-color-scheme: dark)" srcset="https://uibrik.com/registry/sync-button/thumb-dark-sm.webp"><img src="https://uibrik.com/registry/sync-button/thumb-light-sm.webp" alt="Sync Button" width="260"></picture><br><b>Sync Button</b></a></td>
+  </tr>
+  <tr>
+    <td align="center" valign="top" width="33%"><a href="https://uibrik.com/components/typing-dots"><picture><source media="(prefers-color-scheme: dark)" srcset="https://uibrik.com/registry/typing-dots/thumb-dark-sm.webp"><img src="https://uibrik.com/registry/typing-dots/thumb-light-sm.webp" alt="Typing Dots" width="260"></picture><br><b>Typing Dots</b></a></td>
   </tr>
 </table>
 
@@ -436,8 +459,10 @@ Click any component to open its live demo, where you can tweak its props and cop
 | [Copy Button](https://uibrik.com/components/copy-button) | A copy button whose two sheets slide together into a check while the label rolls to Copied. | `copy-button` |
 | [Diagonal Beams](https://uibrik.com/components/diagonal-beams) | One soft light falling across sharp, slanted pleats in the dark, its edge dissolving into fine grain. | `diagonal-beams` |
 | [Dialog](https://uibrik.com/components/dialog) | A modal that grows out of the button that opened it, holds focus, and eases back when another dialog opens on top. | `dialog` |
+| [Disabled Reason](https://uibrik.com/components/disabled-reason) | A disabled button that answers a press: it shakes, says why it's blocked, and moves focus to the field that needs fixing. | `disabled-reason` |
 | [Dither Gradient](https://uibrik.com/components/dither-gradient) | A bending gradient drawn only in your colours through an ordered dither. | `dither-gradient` |
 | [Dot Grid](https://uibrik.com/components/dot-grid) | A quiet grid of dots lit by a drifting wave and by the cursor. | `dot-grid` |
+| [Download Button](https://uibrik.com/components/download-button) | A download button whose arrow drops into its tray, fills with progress as the percentage counts up, then draws a check and offers Open. | `download-button` |
 | [Draggable Letters](https://uibrik.com/components/draggable-letters) | Letters you can pull apart; they spring home. | `draggable-letters` |
 | [Dropdown Menu](https://uibrik.com/components/dropdown-menu) | A menu with icons, shortcuts, checkbox and radio items and submenus, a sliding highlight and full keyboard control. | `dropdown-menu` |
 | [Elastic Slider](https://uibrik.com/components/elastic-slider) | A slider that stretches like rubber past its ends and springs back. | `elastic-slider` |
@@ -452,6 +477,7 @@ Click any component to open its live demo, where you can tweak its props and cop
 | [Fold Toolbar](https://uibrik.com/components/fold-toolbar) | An icon button that unfolds into a tray of tools, pushing its neighbours aside, and folds back into whichever tool you pick. | `fold-toolbar` |
 | [Folder FAQ](https://uibrik.com/components/folder-faq) | An FAQ laid out as files in a drawer: each question peeks out on its tab, and opening one lifts it from the stack while the folders in front slide down to uncover the answer. | `folder-faq` |
 | [Folder Peek](https://uibrik.com/components/folder-peek) | A folder whose file previews rise and fan out on hover, fly out into a list when opened, and that takes files dropped onto it. | `folder-peek` |
+| [Follow Button](https://uibrik.com/components/follow-button) | A follow button whose plus folds into a check as it turns to Following, and warns with Unfollow on hover before you undo it. | `follow-button` |
 | [Gauge Dial](https://uibrik.com/components/gauge-dial) | A 240-degree dial whose gradient arc fills behind a spring-driven knob, with lit ticks and a zone badge; drag it or use the arrow keys. | `gauge-dial` |
 | [Grain Gradient](https://uibrik.com/components/grain-gradient) | Colour that folds slowly like silk, finished with film grain. | `grain-gradient` |
 | [Halftone](https://uibrik.com/components/halftone) | A screen of lit dots: swirling ribbons of light drawn by the size and brightness of each dot. | `halftone` |
@@ -472,9 +498,12 @@ Click any component to open its live demo, where you can tweak its props and cop
 | [Light Stream](https://uibrik.com/components/light-stream) | An hourglass of fine iridescent light streaks with glittering dust, flowing through the dark. | `light-stream` |
 | [Line-by-line Rise](https://uibrik.com/components/line-rise) | Each wrapped line rises into place in turn. | `line-rise` |
 | [Liquid Progress](https://uibrik.com/components/liquid-progress) | A simple progress bar with a liquid feel: tones of one colour that brighten as it fills, a soft shine, and a front that settles with a small wobble. | `liquid-progress` |
+| [Live Kbd](https://uibrik.com/components/live-kbd) | Shortcut keycaps that sink as you press the real keys, then fire the action, so people learn the shortcut by using it. | `live-kbd` |
 | [Loading Shimmer](https://uibrik.com/components/loading-shimmer) | A light sweep across text while something loads. | `loading-shimmer` |
 | [Marquee](https://uibrik.com/components/marquee) | An endless, seamless row of logos, quotes or tags that slows on hover and fades out at the edges. | `marquee` |
 | [Morphing Popover](https://uibrik.com/components/morphing-popover) | A button that grows into a panel by springing its real size and corners, so nothing stretches, then folds back into the button. | `morphing-popover` |
+| [Mute Toggle](https://uibrik.com/components/mute-toggle) | A sound toggle whose waves fold away one at a time before a slash cuts through the speaker, and come back in reverse. | `mute-toggle` |
+| [Notification Bell](https://uibrik.com/components/notification-bell) | A notification bell that swings when something new arrives, rolls its badge count up, and drops the badge into the bell once read. | `notification-bell` |
 | [Notification Stack](https://uibrik.com/components/notification-stack) | Notifications that pile up as panes of frosted glass, fan out on hover and blur away when swiped. | `notification-stack` |
 | [On This Page](https://uibrik.com/components/on-this-page) | A section outline where a dot rides a rail with your scroll, subsections fold open as you reach them, and clicking jumps to a section. | `on-this-page` |
 | [Open Source](https://uibrik.com/components/open-source) | A repository card whose stars, forks and contributor count roll up digit by digit on view, with a sparkline that draws in, a language bar, contributor faces that slide in and fan open, and a live feed of commits, merges and releases. | `open-source` |
@@ -483,6 +512,7 @@ Click any component to open its live demo, where you can tweak its props and cop
 | [Page Indicator](https://uibrik.com/components/page-indicator) | Pagination dashes you can click, scrub, step with arrows or type into. | `page-indicator` |
 | [Pagination](https://uibrik.com/components/pagination) | Pagination that never changes width: the current-page pill slides between slots, page numbers roll like an odometer when the window shifts, and an ellipsis opens into a jump-to-page field. | `pagination` |
 | [Particle Scatter](https://uibrik.com/components/particle-scatter) | Each press breaks the phrase into particles that regroup. | `particle-scatter` |
+| [Password Peek](https://uibrik.com/components/password-peek) | A password field whose eye blinks as you toggle it, and whose characters rise into view left to right instead of snapping from dots. | `password-peek` |
 | [Plucked Curve](https://uibrik.com/components/plucked-curve) | Text rides a curve that wobbles like a plucked string. | `plucked-curve` |
 | [Popover](https://uibrik.com/components/popover) | A panel that grows out of its button, flips when there's no room, and keeps its arrow pointed at the button. | `popover` |
 | [Progress](https://uibrik.com/components/progress) | A quiet card of work in flight: each row is the app's mark, what's happening and a thin bar, and opens like a dropdown into facts, steps or one bar per destination. Values ease on a spring, percentages count with the fill, and finishing draws a check. | `progress` |
@@ -490,6 +520,7 @@ Click any component to open its live demo, where you can tweak its props and cop
 | [Prompt Input](https://uibrik.com/components/prompt-input) | An AI prompt box that grows as you type, with file attachments, a model picker, slash commands, @mentions, a send button that turns into stop, and voice dictation whose words settle in as they are heard. | `prompt-input` |
 | [Pull Toward Cursor](https://uibrik.com/components/pull-to-cursor) | Letters lean toward the cursor like a magnet. | `pull-to-cursor` |
 | [Radio Group](https://uibrik.com/components/radio-group) | A radio group where one dot travels to the option you choose instead of blinking, as plain rows or bordered cards with an outline that follows, with full arrow-key control. | `radio-group` |
+| [Read Receipts](https://uibrik.com/components/read-receipts) | A message bubble whose clock turns into one tick, then two, then fills with colour once the message is read. | `read-receipts` |
 | [Redact and Reveal](https://uibrik.com/components/redact-reveal) | Black bars redact a line, then lift to reveal the next. | `redact-reveal` |
 | [Reject Drop Input](https://uibrik.com/components/reject-drop-input) | A text input that lets go of characters it can't accept: a rejected letter appears where it was typed, blushes red, tips over its corner and drops out of the field under real gravity, fading as it falls, while a short hint says what the field takes. | `reject-drop-input` |
 | [Ripple to Still](https://uibrik.com/components/ripple-to-still) | Text ripples like water, then settles. | `ripple-to-still` |
@@ -518,6 +549,7 @@ Click any component to open its live demo, where you can tweak its props and cop
 | [Stepper Button](https://uibrik.com/components/stepper-button) | An add-to-cart button that reshapes into a quantity stepper in the same pill. | `stepper-button` |
 | [Strike Todos](https://uibrik.com/components/strike-todos) | A plain to-do list: checking an item draws a line through it, and unchecking wipes the line away. | `strike-todos` |
 | [Swap Fields](https://uibrik.com/components/swap-fields) | A from/to pair whose fields trade places along opposite arcs when you press swap, carrying their values with them while the slot labels hand over. | `swap-fields` |
+| [Sync Button](https://uibrik.com/components/sync-button) | A sync button whose arrows spin while it works, coast to a stop instead of halting, draw a check, and keep "Synced 3 min ago" up to date. | `sync-button` |
 | [Tactile Toggle](https://uibrik.com/components/tactile-toggle) | A single switch whose knob squishes under the finger, drags like the real thing and springs home on release. | `tactile-toggle` |
 | [Tactile Toggles](https://uibrik.com/components/tactile-toggles) | A settings list whose switches squish under the finger, drag like the real thing, sweep a faint tint across the row as they turn on, and pause the rows they override. | `tactile-toggles` |
 | [Tag Input](https://uibrik.com/components/tag-input) | A field that turns typed or pasted text into chips that pop in and shrink out, with Backspace to select and remove, arrow keys to move between chips and a nudge for duplicates. | `tag-input` |
@@ -530,6 +562,7 @@ Click any component to open its live demo, where you can tweak its props and cop
 | [Tracking In](https://uibrik.com/components/tracking-in) | Lines open with a wide gap after every letter, and the gaps close one by one until the text settles. | `tracking-in` |
 | [Tree View](https://uibrik.com/components/tree-view) | A file and folder tree with folders that ease open, guide lines, a sliding selection and full tree keyboard control. | `tree-view` |
 | [Typewriter](https://uibrik.com/components/typewriter) | Text typed with a human rhythm, mistakes included. | `typewriter` |
+| [Typing Dots](https://uibrik.com/components/typing-dots) | A typing indicator whose bubble grows from three dots into the message itself, so the reply lands where the dots were. | `typing-dots` |
 | [Waitlist Input](https://uibrik.com/components/waitlist-input) | An email field with its button inside that shrinks to a spinner, then settles into a confirmation in the same space. | `waitlist-input` |
 | [Zoom Past](https://uibrik.com/components/zoom-past) | Words fly toward you and the next one arrives behind. | `zoom-past` |
 

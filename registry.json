@@ -683,6 +683,32 @@
       ]
     },
     {
+      "name": "disabled-reason",
+      "type": "registry:component",
+      "title": "Disabled Reason",
+      "description": "A disabled button that answers a press: it shakes, says why it's blocked, and moves focus to the field that needs fixing.",
+      "categories": [
+        "states"
+      ],
+      "dependencies": [
+        "motion@^13.1.1"
+      ],
+      "registryDependencies": [
+        "utils"
+      ],
+      "meta": {
+        "import": "@/registry/disabled-reason/disabled-reason",
+        "export": "DisabledReason"
+      },
+      "files": [
+        {
+          "path": "components/disabled-reason/disabled-reason.tsx",
+          "type": "registry:component",
+          "target": "@components/uibrik/disabled-reason/disabled-reason.tsx"
+        }
+      ]
+    },
+    {
       "name": "dither-gradient",
       "type": "registry:component",
       "title": "Dither Gradient",
@@ -735,6 +761,34 @@
           "path": "components/_shader-background/ShaderSurface.tsx",
           "type": "registry:component",
           "target": "@components/uibrik/_shader-background/ShaderSurface.tsx"
+        }
+      ]
+    },
+    {
+      "name": "download-button",
+      "type": "registry:component",
+      "title": "Download Button",
+      "description": "A download button whose arrow drops into its tray, fills with progress as the percentage counts up, then draws a check and offers Open.",
+      "categories": [
+        "states"
+      ],
+      "dependencies": [
+        "@number-flow/react@^0.6.2",
+        "motion@^13.1.1",
+        "react-use-measure@^2.1.7"
+      ],
+      "registryDependencies": [
+        "utils"
+      ],
+      "meta": {
+        "import": "@/registry/download-button/download-button",
+        "export": "DownloadButton"
+      },
+      "files": [
+        {
+          "path": "components/download-button/download-button.tsx",
+          "type": "registry:component",
+          "target": "@components/uibrik/download-button/download-button.tsx"
         }
       ]
     },
@@ -1308,6 +1362,34 @@
           "path": "components/folder-peek/folder-peek.tsx",
           "type": "registry:component",
           "target": "@components/uibrik/folder-peek/folder-peek.tsx"
+        }
+      ]
+    },
+    {
+      "name": "follow-button",
+      "type": "registry:component",
+      "title": "Follow Button",
+      "description": "A follow button whose plus folds into a check as it turns to Following, and warns with Unfollow on hover before you undo it.",
+      "categories": [
+        "states"
+      ],
+      "dependencies": [
+        "@number-flow/react@^0.6.2",
+        "motion@^13.1.1",
+        "react-use-measure@^2.1.7"
+      ],
+      "registryDependencies": [
+        "utils"
+      ],
+      "meta": {
+        "import": "@/registry/follow-button/follow-button",
+        "export": "FollowButton"
+      },
+      "files": [
+        {
+          "path": "components/follow-button/follow-button.tsx",
+          "type": "registry:component",
+          "target": "@components/uibrik/follow-button/follow-button.tsx"
         }
       ]
     },
@@ -1901,6 +1983,32 @@
       ]
     },
     {
+      "name": "live-kbd",
+      "type": "registry:component",
+      "title": "Live Kbd",
+      "description": "Shortcut keycaps that sink as you press the real keys, then fire the action, so people learn the shortcut by using it.",
+      "categories": [
+        "states"
+      ],
+      "dependencies": [
+        "motion@^13.1.1"
+      ],
+      "registryDependencies": [
+        "utils"
+      ],
+      "meta": {
+        "import": "@/registry/live-kbd/live-kbd",
+        "export": "LiveKbd"
+      },
+      "files": [
+        {
+          "path": "components/live-kbd/live-kbd.tsx",
+          "type": "registry:component",
+          "target": "@components/uibrik/live-kbd/live-kbd.tsx"
+        }
+      ]
+    },
+    {
       "name": "loading-shimmer",
       "type": "registry:component",
       "title": "Loading Shimmer",
@@ -1976,6 +2084,60 @@
           "path": "components/morphing-popover/morphing-popover.tsx",
           "type": "registry:component",
           "target": "@components/uibrik/morphing-popover/morphing-popover.tsx"
+        }
+      ]
+    },
+    {
+      "name": "mute-toggle",
+      "type": "registry:component",
+      "title": "Mute Toggle",
+      "description": "A sound toggle whose waves fold away one at a time before a slash cuts through the speaker, and come back in reverse.",
+      "categories": [
+        "states"
+      ],
+      "dependencies": [
+        "motion@^13.1.1",
+        "react-use-measure@^2.1.7"
+      ],
+      "registryDependencies": [
+        "utils"
+      ],
+      "meta": {
+        "import": "@/registry/mute-toggle/mute-toggle",
+        "export": "MuteToggle"
+      },
+      "files": [
+        {
+          "path": "components/mute-toggle/mute-toggle.tsx",
+          "type": "registry:component",
+          "target": "@components/uibrik/mute-toggle/mute-toggle.tsx"
+        }
+      ]
+    },
+    {
+      "name": "notification-bell",
+      "type": "registry:component",
+      "title": "Notification Bell",
+      "description": "A notification bell that swings when something new arrives, rolls its badge count up, and drops the badge into the bell once read.",
+      "categories": [
+        "states"
+      ],
+      "dependencies": [
+        "@number-flow/react@^0.6.2",
+        "motion@^13.1.1"
+      ],
+      "registryDependencies": [
+        "utils"
+      ],
+      "meta": {
+        "import": "@/registry/notification-bell/notification-bell",
+        "export": "NotificationBell"
+      },
+      "files": [
+        {
+          "path": "components/notification-bell/notification-bell.tsx",
+          "type": "registry:component",
+          "target": "@components/uibrik/notification-bell/notification-bell.tsx"
         }
       ]
     },
@@ -2274,6 +2436,32 @@
       ]
     },
     {
+      "name": "password-peek",
+      "type": "registry:component",
+      "title": "Password Peek",
+      "description": "A password field whose eye blinks as you toggle it, and whose characters rise into view left to right instead of snapping from dots.",
+      "categories": [
+        "states"
+      ],
+      "dependencies": [
+        "motion@^13.1.1"
+      ],
+      "registryDependencies": [
+        "utils"
+      ],
+      "meta": {
+        "import": "@/registry/password-peek/password-peek",
+        "export": "PasswordPeek"
+      },
+      "files": [
+        {
+          "path": "components/password-peek/password-peek.tsx",
+          "type": "registry:component",
+          "target": "@components/uibrik/password-peek/password-peek.tsx"
+        }
+      ]
+    },
+    {
       "name": "plucked-curve",
       "type": "registry:component",
       "title": "Plucked Curve",
@@ -2501,6 +2689,32 @@
           "path": "components/radio-group/radio-group.tsx",
           "type": "registry:component",
           "target": "@components/uibrik/radio-group/radio-group.tsx"
+        }
+      ]
+    },
+    {
+      "name": "read-receipts",
+      "type": "registry:component",
+      "title": "Read Receipts",
+      "description": "A message bubble whose clock turns into one tick, then two, then fills with colour once the message is read.",
+      "categories": [
+        "states"
+      ],
+      "dependencies": [
+        "motion@^13.1.1"
+      ],
+      "registryDependencies": [
+        "utils"
+      ],
+      "meta": {
+        "import": "@/registry/read-receipts/read-receipts",
+        "export": "ReadReceipts"
+      },
+      "files": [
+        {
+          "path": "components/read-receipts/read-receipts.tsx",
+          "type": "registry:component",
+          "target": "@components/uibrik/read-receipts/read-receipts.tsx"
         }
       ]
     },
@@ -3305,6 +3519,33 @@
       ]
     },
     {
+      "name": "sync-button",
+      "type": "registry:component",
+      "title": "Sync Button",
+      "description": "A sync button whose arrows spin while it works, coast to a stop instead of halting, draw a check, and keep \"Synced 3 min ago\" up to date.",
+      "categories": [
+        "states"
+      ],
+      "dependencies": [
+        "motion@^13.1.1",
+        "react-use-measure@^2.1.7"
+      ],
+      "registryDependencies": [
+        "utils"
+      ],
+      "meta": {
+        "import": "@/registry/sync-button/sync-button",
+        "export": "SyncButton"
+      },
+      "files": [
+        {
+          "path": "components/sync-button/sync-button.tsx",
+          "type": "registry:component",
+          "target": "@components/uibrik/sync-button/sync-button.tsx"
+        }
+      ]
+    },
+    {
       "name": "tactile-toggle",
       "type": "registry:component",
       "title": "Tactile Toggle",
@@ -3700,6 +3941,33 @@
           "path": "components/typewriter/typewriter.tsx",
           "type": "registry:component",
           "target": "@components/uibrik/typewriter/typewriter.tsx"
+        }
+      ]
+    },
+    {
+      "name": "typing-dots",
+      "type": "registry:component",
+      "title": "Typing Dots",
+      "description": "A typing indicator whose bubble grows from three dots into the message itself, so the reply lands where the dots were.",
+      "categories": [
+        "states"
+      ],
+      "dependencies": [
+        "motion@^13.1.1",
+        "react-use-measure@^2.1.7"
+      ],
+      "registryDependencies": [
+        "utils"
+      ],
+      "meta": {
+        "import": "@/registry/typing-dots/typing-dots",
+        "export": "TypingDots"
+      },
+      "files": [
+        {
+          "path": "components/typing-dots/typing-dots.tsx",
+          "type": "registry:component",
+          "target": "@components/uibrik/typing-dots/typing-dots.tsx"
         }
       ]
     },
