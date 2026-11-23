@@ -3,12 +3,12 @@
 <h1 align="center">uibrik</h1>
 
 <p align="center">
-  <b>132 free, animated React components.</b><br>
+  <b>137 free, animated React components.</b><br>
   Built with Tailwind CSS v4 and Motion. Install with the shadcn CLI, or let your AI agent do it over MCP.
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/components-132%20free-111111?style=flat-square" alt="components: 132 free">
+  <img src="https://img.shields.io/badge/components-137%20free-111111?style=flat-square" alt="components: 137 free">
   <img src="https://img.shields.io/badge/license-MIT-111111?style=flat-square" alt="license: MIT">
   <img src="https://img.shields.io/badge/React-19-111111?style=flat-square" alt="React: 19">
   <img src="https://img.shields.io/badge/Tailwind%20CSS-v4-111111?style=flat-square" alt="Tailwind CSS: v4">
@@ -307,6 +307,15 @@ Click any component to open its live demo, where you can tweak its props and cop
   <tr>
     <td align="center" valign="top" width="33%"><a href="https://uibrik.com/components/avatar-stack"><picture><source media="(prefers-color-scheme: dark)" srcset="https://uibrik.com/registry/avatar-stack/thumb-dark-sm.webp"><img src="https://uibrik.com/registry/avatar-stack/thumb-light-sm.webp" alt="Avatar Stack" width="260"></picture><br><b>Avatar Stack</b></a></td>
     <td align="center" valign="top" width="33%"><a href="https://uibrik.com/components/light-badge"><picture><source media="(prefers-color-scheme: dark)" srcset="https://uibrik.com/registry/light-badge/thumb-dark-sm.webp"><img src="https://uibrik.com/registry/light-badge/thumb-light-sm.webp" alt="Light Badge" width="260"></picture><br><b>Light Badge</b></a></td>
+    <td align="center" valign="top" width="33%"><a href="https://uibrik.com/components/social-avatar"><picture><source media="(prefers-color-scheme: dark)" srcset="https://uibrik.com/registry/social-avatar/thumb-dark-sm.webp"><img src="https://uibrik.com/registry/social-avatar/thumb-light-sm.webp" alt="Social Avatar" width="260"></picture><br><b>Social Avatar</b></a></td>
+  </tr>
+  <tr>
+    <td align="center" valign="top" width="33%"><a href="https://uibrik.com/components/status-badge"><picture><source media="(prefers-color-scheme: dark)" srcset="https://uibrik.com/registry/status-badge/thumb-dark-sm.webp"><img src="https://uibrik.com/registry/status-badge/thumb-light-sm.webp" alt="Status Badge" width="260"></picture><br><b>Status Badge</b></a></td>
+    <td align="center" valign="top" width="33%"><a href="https://uibrik.com/components/story-ring"><picture><source media="(prefers-color-scheme: dark)" srcset="https://uibrik.com/registry/story-ring/thumb-dark-sm.webp"><img src="https://uibrik.com/registry/story-ring/thumb-light-sm.webp" alt="Story Ring" width="260"></picture><br><b>Story Ring</b></a></td>
+    <td align="center" valign="top" width="33%"><a href="https://uibrik.com/components/tech-stack"><picture><source media="(prefers-color-scheme: dark)" srcset="https://uibrik.com/registry/tech-stack/thumb-dark-sm.webp"><img src="https://uibrik.com/registry/tech-stack/thumb-light-sm.webp" alt="Tech Stack" width="260"></picture><br><b>Tech Stack</b></a></td>
+  </tr>
+  <tr>
+    <td align="center" valign="top" width="33%"><a href="https://uibrik.com/components/verified-badge"><picture><source media="(prefers-color-scheme: dark)" srcset="https://uibrik.com/registry/verified-badge/thumb-dark-sm.webp"><img src="https://uibrik.com/registry/verified-badge/thumb-light-sm.webp" alt="Verified Badge" width="260"></picture><br><b>Verified Badge</b></a></td>
   </tr>
 </table>
 
@@ -549,6 +558,7 @@ Click any component to open its live demo, where you can tweak its props and cop
 | [Silk Vortex](https://uibrik.com/components/silk-vortex) | Liquid glass streaming outward from a dark void: glossy folds mapped through a colour gradient. | `silk-vortex` |
 | [Skeleton](https://uibrik.com/components/skeleton) | A skeleton measured from the real layout: one bar per wrapped line of text, a box for every image and control, one shimmer across them all, and a top-to-bottom reveal when the content arrives. | `skeleton` |
 | [Slot-machine Letters](https://uibrik.com/components/slot-letters) | Each letter spins like a reel and lands on the next word. | `slot-letters` |
+| [Social Avatar](https://uibrik.com/components/social-avatar) | An avatar that fans the person's social accounts out of itself along an arc, with real brand logos that copy the handle or open the profile on press. | `social-avatar` |
 | [Soft Button](https://uibrik.com/components/soft-button) | A plain button made with care: a gentle top-to-bottom gradient, a faint inner highlight and shade, and a crisp border, in primary, secondary and accent. | `soft-button` |
 | [Spill Textarea](https://uibrik.com/components/spill-textarea) | A textarea with a character limit. A ring fills as you write and turns amber near the end; past the limit each new letter blushes red, tips over and falls out of the field, leaving an empty gap where it was, or stays red while a copy of it falls. | `spill-textarea` |
 | [Spinner](https://uibrik.com/components/spinner) | A small family of loading indicators (ring, radial, dots, bars, orbit) drawn on one grid with one stroke and tempo. | `spinner` |
@@ -556,14 +566,17 @@ Click any component to open its live demo, where you can tweak its props and cop
 | [Split Bar](https://uibrik.com/components/split-bar) | Parts of a whole on one bar, linked to a list, with segments that slide to new shares when the data changes. | `split-bar` |
 | [Split Button](https://uibrik.com/components/split-button) | A primary button with a menu of alternative actions; the chosen one rolls into the main label. | `split-button` |
 | [Split Panes](https://uibrik.com/components/split-panes) | Resizable panes that follow the pointer exactly, snap into an icon rail when dragged past their minimum, and fold on their own when the container gets small. | `split-panes` |
+| [Status Badge](https://uibrik.com/components/status-badge) | One status pill that moves between states: the tint eases to the new colour, the icon turns in, the label rolls and the pill glides to its new width. | `status-badge` |
 | [Status Stamp](https://uibrik.com/components/status-stamp) | An ink stamp slams down: approved, in review, rejected. | `status-stamp` |
 | [Stepper Button](https://uibrik.com/components/stepper-button) | An add-to-cart button that reshapes into a quantity stepper in the same pill. | `stepper-button` |
+| [Story Ring](https://uibrik.com/components/story-ring) | An avatar in a segmented story ring that spins into dashes while a story loads, then drains the arc you opened to grey. | `story-ring` |
 | [Strike Todos](https://uibrik.com/components/strike-todos) | A plain to-do list: checking an item draws a line through it, and unchecking wipes the line away. | `strike-todos` |
 | [Swap Fields](https://uibrik.com/components/swap-fields) | A from/to pair whose fields trade places along opposite arcs when you press swap, carrying their values with them while the slot labels hand over. | `swap-fields` |
 | [Sync Button](https://uibrik.com/components/sync-button) | A sync button whose arrows spin while it works, coast to a stop instead of halting, draw a check, and keep "Synced 3 min ago" up to date. | `sync-button` |
 | [Tactile Toggle](https://uibrik.com/components/tactile-toggle) | A single switch whose knob squishes under the finger, drags like the real thing and springs home on release. | `tactile-toggle` |
 | [Tactile Toggles](https://uibrik.com/components/tactile-toggles) | A settings list whose switches squish under the finger, drag like the real thing, sweep a faint tint across the row as they turn on, and pause the rows they override. | `tactile-toggles` |
 | [Tag Input](https://uibrik.com/components/tag-input) | A field that turns typed or pasted text into chips that pop in and shrink out, with Backspace to select and remove, arrow keys to move between chips and a nudge for duplicates. | `tag-input` |
+| [Tech Stack](https://uibrik.com/components/tech-stack) | A row of real brand logos for the tools behind a product that open into tinted pills naming each one as neighbours slide aside. | `tech-stack` |
 | [Testimonial Carousel](https://uibrik.com/components/testimonial-carousel) | One large quote at a time over a faint oversized quote mark, with a pill pager below; the frame eases to each quote's height, and it swipes and steps with the arrow keys. | `testimonial-carousel` |
 | [Theme Switch](https://uibrik.com/components/theme-switch) | Switches the page theme: the sun pulls in its rays and is eclipsed into a moon while the new theme spreads out from the button. | `theme-switch` |
 | [Tick Nav](https://uibrik.com/components/tick-nav) | A section list on a ruler whose ticks swell like a dock under the pointer, sliding each label out with its tick. | `tick-nav` |
@@ -574,6 +587,7 @@ Click any component to open its live demo, where you can tweak its props and cop
 | [Tree View](https://uibrik.com/components/tree-view) | A file and folder tree with folders that ease open, guide lines, a sliding selection and full tree keyboard control. | `tree-view` |
 | [Typewriter](https://uibrik.com/components/typewriter) | Text typed with a human rhythm, mistakes included. | `typewriter` |
 | [Typing Dots](https://uibrik.com/components/typing-dots) | A typing indicator whose bubble grows from three dots into the message itself, so the reply lands where the dots were. | `typing-dots` |
+| [Verified Badge](https://uibrik.com/components/verified-badge) | A scalloped verified seal in blue, gold or grey that stamps in with a turn, draws its check and catches one pass of light. | `verified-badge` |
 | [Waitlist Input](https://uibrik.com/components/waitlist-input) | An email field with its button inside that shrinks to a spinner, then settles into a confirmation in the same space. | `waitlist-input` |
 | [Zoom Past](https://uibrik.com/components/zoom-past) | Words fly toward you and the next one arrives behind. | `zoom-past` |
 

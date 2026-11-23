@@ -3252,6 +3252,38 @@
       ]
     },
     {
+      "name": "social-avatar",
+      "type": "registry:component",
+      "title": "Social Avatar",
+      "description": "An avatar that fans the person's social accounts out of itself along an arc, with real brand logos that copy the handle or open the profile on press.",
+      "categories": [
+        "identity"
+      ],
+      "dependencies": [
+        "@tabler/icons-react@^3.46.0",
+        "motion@^13.1.1"
+      ],
+      "registryDependencies": [
+        "utils"
+      ],
+      "meta": {
+        "import": "@/registry/social-avatar/social-avatar",
+        "export": "SocialAvatar"
+      },
+      "files": [
+        {
+          "path": "components/social-avatar/social-avatar.tsx",
+          "type": "registry:component",
+          "target": "@components/uibrik/social-avatar/social-avatar.tsx"
+        },
+        {
+          "path": "components/_brands/brands.ts",
+          "type": "registry:lib",
+          "target": "@components/uibrik/_brands/brands.ts"
+        }
+      ]
+    },
+    {
       "name": "soft-button",
       "type": "registry:component",
       "title": "Soft Button",
@@ -3469,6 +3501,34 @@
       ]
     },
     {
+      "name": "status-badge",
+      "type": "registry:component",
+      "title": "Status Badge",
+      "description": "One status pill that moves between states: the tint eases to the new colour, the icon turns in, the label rolls and the pill glides to its new width.",
+      "categories": [
+        "identity"
+      ],
+      "dependencies": [
+        "@tabler/icons-react@^3.46.0",
+        "motion@^13.1.1",
+        "react-use-measure@^2.1.7"
+      ],
+      "registryDependencies": [
+        "utils"
+      ],
+      "meta": {
+        "import": "@/registry/status-badge/status-badge",
+        "export": "StatusBadge"
+      },
+      "files": [
+        {
+          "path": "components/status-badge/status-badge.tsx",
+          "type": "registry:component",
+          "target": "@components/uibrik/status-badge/status-badge.tsx"
+        }
+      ]
+    },
+    {
       "name": "status-stamp",
       "type": "registry:component",
       "title": "Status Stamp",
@@ -3520,6 +3580,32 @@
           "path": "components/stepper-button/stepper-button.tsx",
           "type": "registry:component",
           "target": "@components/uibrik/stepper-button/stepper-button.tsx"
+        }
+      ]
+    },
+    {
+      "name": "story-ring",
+      "type": "registry:component",
+      "title": "Story Ring",
+      "description": "An avatar in a segmented story ring that spins into dashes while a story loads, then drains the arc you opened to grey.",
+      "categories": [
+        "identity"
+      ],
+      "dependencies": [
+        "motion@^13.1.1"
+      ],
+      "registryDependencies": [
+        "utils"
+      ],
+      "meta": {
+        "import": "@/registry/story-ring/story-ring",
+        "export": "StoryRing"
+      },
+      "files": [
+        {
+          "path": "components/story-ring/story-ring.tsx",
+          "type": "registry:component",
+          "target": "@components/uibrik/story-ring/story-ring.tsx"
         }
       ]
     },
@@ -3717,6 +3803,37 @@
           "path": "components/tag-input/tag-input.tsx",
           "type": "registry:component",
           "target": "@components/uibrik/tag-input/tag-input.tsx"
+        }
+      ]
+    },
+    {
+      "name": "tech-stack",
+      "type": "registry:component",
+      "title": "Tech Stack",
+      "description": "A row of real brand logos for the tools behind a product that open into tinted pills naming each one as neighbours slide aside.",
+      "categories": [
+        "identity"
+      ],
+      "dependencies": [
+        "motion@^13.1.1"
+      ],
+      "registryDependencies": [
+        "utils"
+      ],
+      "meta": {
+        "import": "@/registry/tech-stack/tech-stack",
+        "export": "TechStack"
+      },
+      "files": [
+        {
+          "path": "components/tech-stack/tech-stack.tsx",
+          "type": "registry:component",
+          "target": "@components/uibrik/tech-stack/tech-stack.tsx"
+        },
+        {
+          "path": "components/_brands/brands.ts",
+          "type": "registry:lib",
+          "target": "@components/uibrik/_brands/brands.ts"
         }
       ]
     },
@@ -4024,6 +4141,32 @@
           "path": "components/typing-dots/typing-dots.tsx",
           "type": "registry:component",
           "target": "@components/uibrik/typing-dots/typing-dots.tsx"
+        }
+      ]
+    },
+    {
+      "name": "verified-badge",
+      "type": "registry:component",
+      "title": "Verified Badge",
+      "description": "A scalloped verified seal in blue, gold or grey that stamps in with a turn, draws its check and catches one pass of light.",
+      "categories": [
+        "identity"
+      ],
+      "dependencies": [
+        "motion@^13.1.1"
+      ],
+      "registryDependencies": [
+        "utils"
+      ],
+      "meta": {
+        "import": "@/registry/verified-badge/verified-badge",
+        "export": "VerifiedBadge"
+      },
+      "files": [
+        {
+          "path": "components/verified-badge/verified-badge.tsx",
+          "type": "registry:component",
+          "target": "@components/uibrik/verified-badge/verified-badge.tsx"
         }
       ]
     },
