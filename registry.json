@@ -2827,6 +2827,33 @@
       ]
     },
     {
+      "name": "request-waterfall",
+      "type": "registry:component",
+      "title": "Request Waterfall",
+      "description": "A network waterfall without the noise: a type icon per request, bars that draw in the order requests started, and hovering one pulls it apart into DNS, connect, TLS, waiting and download, draws guides at its start and end and dims the rest. Opening a row lays out each phase on the same time axis, and hovering a marker dims every request that finished after it.",
+      "categories": [
+        "data"
+      ],
+      "dependencies": [
+        "@tabler/icons-react@^3.46.0",
+        "motion@^13.1.1"
+      ],
+      "registryDependencies": [
+        "utils"
+      ],
+      "meta": {
+        "import": "@/registry/request-waterfall/request-waterfall",
+        "export": "RequestWaterfall"
+      },
+      "files": [
+        {
+          "path": "components/request-waterfall/request-waterfall.tsx",
+          "type": "registry:component",
+          "target": "@components/uibrik/request-waterfall/request-waterfall.tsx"
+        }
+      ]
+    },
+    {
       "name": "ripple-to-still",
       "type": "registry:component",
       "title": "Ripple to Still",
@@ -3497,6 +3524,33 @@
           "path": "components/squircle-provider.tsx",
           "type": "registry:component",
           "target": "@components/uibrik/squircle-provider.tsx"
+        }
+      ]
+    },
+    {
+      "name": "stack-trace",
+      "type": "registry:component",
+      "title": "Stack Trace",
+      "description": "An error card that stays small until you need it: the error, how often it fired and a bar per hour, with the frame that threw on top. A click opens its source with the failing line marked, and the rest of the stack unfolds frame by frame with library frames folded away.",
+      "categories": [
+        "data"
+      ],
+      "dependencies": [
+        "@tabler/icons-react@^3.46.0",
+        "motion@^13.1.1"
+      ],
+      "registryDependencies": [
+        "utils"
+      ],
+      "meta": {
+        "import": "@/registry/stack-trace/stack-trace",
+        "export": "StackTrace"
+      },
+      "files": [
+        {
+          "path": "components/stack-trace/stack-trace.tsx",
+          "type": "registry:component",
+          "target": "@components/uibrik/stack-trace/stack-trace.tsx"
         }
       ]
     },

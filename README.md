@@ -3,12 +3,12 @@
 <h1 align="center">uibrik</h1>
 
 <p align="center">
-  <b>137 free, animated React components.</b><br>
+  <b>139 free, animated React components.</b><br>
   Built with Tailwind CSS v4 and Motion. Install with the shadcn CLI, or let your AI agent do it over MCP.
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/components-137%20free-111111?style=flat-square" alt="components: 137 free">
+  <img src="https://img.shields.io/badge/components-139%20free-111111?style=flat-square" alt="components: 139 free">
   <img src="https://img.shields.io/badge/license-MIT-111111?style=flat-square" alt="license: MIT">
   <img src="https://img.shields.io/badge/React-19-111111?style=flat-square" alt="React: 19">
   <img src="https://img.shields.io/badge/Tailwind%20CSS-v4-111111?style=flat-square" alt="Tailwind CSS: v4">
@@ -296,6 +296,10 @@ Click any component to open its live demo, where you can tweak its props and cop
 <table>
   <tr>
     <td align="center" valign="top" width="33%"><a href="https://uibrik.com/components/code-block"><picture><source media="(prefers-color-scheme: dark)" srcset="https://uibrik.com/registry/code-block/thumb-dark-sm.webp"><img src="https://uibrik.com/registry/code-block/thumb-light-sm.webp" alt="Code Block" width="260"></picture><br><b>Code Block</b></a></td>
+    <td align="center" valign="top" width="33%"><a href="https://uibrik.com/components/request-waterfall"><picture><source media="(prefers-color-scheme: dark)" srcset="https://uibrik.com/registry/request-waterfall/thumb-dark-sm.webp"><img src="https://uibrik.com/registry/request-waterfall/thumb-light-sm.webp" alt="Request Waterfall" width="260"></picture><br><b>Request Waterfall</b></a></td>
+    <td align="center" valign="top" width="33%"><a href="https://uibrik.com/components/stack-trace"><picture><source media="(prefers-color-scheme: dark)" srcset="https://uibrik.com/registry/stack-trace/thumb-dark-sm.webp"><img src="https://uibrik.com/registry/stack-trace/thumb-light-sm.webp" alt="Stack Trace" width="260"></picture><br><b>Stack Trace</b></a></td>
+  </tr>
+  <tr>
     <td align="center" valign="top" width="33%"><a href="https://uibrik.com/components/strike-todos"><picture><source media="(prefers-color-scheme: dark)" srcset="https://uibrik.com/registry/strike-todos/thumb-dark-sm.webp"><img src="https://uibrik.com/registry/strike-todos/thumb-light-sm.webp" alt="Strike Todos" width="260"></picture><br><b>Strike Todos</b></a></td>
     <td align="center" valign="top" width="33%"><a href="https://uibrik.com/components/tree-view"><picture><source media="(prefers-color-scheme: dark)" srcset="https://uibrik.com/registry/tree-view/thumb-dark-sm.webp"><img src="https://uibrik.com/registry/tree-view/thumb-light-sm.webp" alt="Tree View" width="260"></picture><br><b>Tree View</b></a></td>
   </tr>
@@ -543,6 +547,7 @@ Click any component to open its live demo, where you can tweak its props and cop
 | [Read Receipts](https://uibrik.com/components/read-receipts) | A message bubble whose clock turns into one tick, then two, then fills with colour once the message is read. | `read-receipts` |
 | [Redact and Reveal](https://uibrik.com/components/redact-reveal) | Black bars redact a line, then lift to reveal the next. | `redact-reveal` |
 | [Reject Drop Input](https://uibrik.com/components/reject-drop-input) | A text input that lets go of characters it can't accept: a rejected letter appears where it was typed, blushes red, tips over its corner and drops out of the field under real gravity, fading as it falls, while a short hint says what the field takes. | `reject-drop-input` |
+| [Request Waterfall](https://uibrik.com/components/request-waterfall) | A network waterfall without the noise: a type icon per request, bars that draw in the order requests started, and hovering one pulls it apart into DNS, connect, TLS, waiting and download, draws guides at its start and end and dims the rest. Opening a row lays out each phase on the same time axis, and hovering a marker dims every request that finished after it. | `request-waterfall` |
 | [Ripple to Still](https://uibrik.com/components/ripple-to-still) | Text ripples like water, then settles. | `ripple-to-still` |
 | [Rolling Word](https://uibrik.com/components/rolling-word) | One word rolls to the next like a drum. | `rolling-word` |
 | [Rust Text](https://uibrik.com/components/rust-text) | Brushed steel type that rusts while you watch and flakes away, polished back to a shine wherever the pointer passes. | `rust-text` |
@@ -566,6 +571,7 @@ Click any component to open its live demo, where you can tweak its props and cop
 | [Split Bar](https://uibrik.com/components/split-bar) | Parts of a whole on one bar, linked to a list, with segments that slide to new shares when the data changes. | `split-bar` |
 | [Split Button](https://uibrik.com/components/split-button) | A primary button with a menu of alternative actions; the chosen one rolls into the main label. | `split-button` |
 | [Split Panes](https://uibrik.com/components/split-panes) | Resizable panes that follow the pointer exactly, snap into an icon rail when dragged past their minimum, and fold on their own when the container gets small. | `split-panes` |
+| [Stack Trace](https://uibrik.com/components/stack-trace) | An error card that stays small until you need it: the error, how often it fired and a bar per hour, with the frame that threw on top. A click opens its source with the failing line marked, and the rest of the stack unfolds frame by frame with library frames folded away. | `stack-trace` |
 | [Status Badge](https://uibrik.com/components/status-badge) | One status pill that moves between states: the tint eases to the new colour, the icon turns in, the label rolls and the pill glides to its new width. | `status-badge` |
 | [Status Stamp](https://uibrik.com/components/status-stamp) | An ink stamp slams down: approved, in review, rejected. | `status-stamp` |
 | [Stepper Button](https://uibrik.com/components/stepper-button) | An add-to-cart button that reshapes into a quantity stepper in the same pill. | `stepper-button` |
