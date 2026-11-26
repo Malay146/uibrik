@@ -3,12 +3,12 @@
 <h1 align="center">uibrik</h1>
 
 <p align="center">
-  <b>139 free, animated React components.</b><br>
+  <b>143 free, animated React components.</b><br>
   Built with Tailwind CSS v4 and Motion. Install with the shadcn CLI, or let your AI agent do it over MCP.
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/components-139%20free-111111?style=flat-square" alt="components: 139 free">
+  <img src="https://img.shields.io/badge/components-143%20free-111111?style=flat-square" alt="components: 143 free">
   <img src="https://img.shields.io/badge/license-MIT-111111?style=flat-square" alt="license: MIT">
   <img src="https://img.shields.io/badge/React-19-111111?style=flat-square" alt="React: 19">
   <img src="https://img.shields.io/badge/Tailwind%20CSS-v4-111111?style=flat-square" alt="Tailwind CSS: v4">
@@ -342,6 +342,7 @@ Click any component to open its live demo, where you can tweak its props and cop
   <tr>
     <td align="center" valign="top" width="33%"><a href="https://uibrik.com/components/compare-slider"><picture><source media="(prefers-color-scheme: dark)" srcset="https://uibrik.com/registry/compare-slider/thumb-dark-sm.webp"><img src="https://uibrik.com/registry/compare-slider/thumb-light-sm.webp" alt="Compare Slider" width="260"></picture><br><b>Compare Slider</b></a></td>
     <td align="center" valign="top" width="33%"><a href="https://uibrik.com/components/folder-peek"><picture><source media="(prefers-color-scheme: dark)" srcset="https://uibrik.com/registry/folder-peek/thumb-dark-sm.webp"><img src="https://uibrik.com/registry/folder-peek/thumb-light-sm.webp" alt="Folder Peek" width="260"></picture><br><b>Folder Peek</b></a></td>
+    <td align="center" valign="top" width="33%"><a href="https://uibrik.com/components/podcast-chapters"><picture><source media="(prefers-color-scheme: dark)" srcset="https://uibrik.com/registry/podcast-chapters/thumb-dark-sm.webp"><img src="https://uibrik.com/registry/podcast-chapters/thumb-light-sm.webp" alt="Podcast Chapters" width="260"></picture><br><b>Podcast Chapters</b></a></td>
   </tr>
 </table>
 
@@ -392,6 +393,7 @@ Click any component to open its live demo, where you can tweak its props and cop
 
 <table>
   <tr>
+    <td align="center" valign="top" width="33%"><a href="https://uibrik.com/components/energy-flow"><picture><source media="(prefers-color-scheme: dark)" srcset="https://uibrik.com/registry/energy-flow/thumb-dark-sm.webp"><img src="https://uibrik.com/registry/energy-flow/thumb-light-sm.webp" alt="Energy Flow" width="260"></picture><br><b>Energy Flow</b></a></td>
     <td align="center" valign="top" width="33%"><a href="https://uibrik.com/components/event-feed"><picture><source media="(prefers-color-scheme: dark)" srcset="https://uibrik.com/registry/event-feed/thumb-dark-sm.webp"><img src="https://uibrik.com/registry/event-feed/thumb-light-sm.webp" alt="Event Feed" width="260"></picture><br><b>Event Feed</b></a></td>
     <td align="center" valign="top" width="33%"><a href="https://uibrik.com/components/file-card"><picture><source media="(prefers-color-scheme: dark)" srcset="https://uibrik.com/registry/file-card/thumb-dark-sm.webp"><img src="https://uibrik.com/registry/file-card/thumb-light-sm.webp" alt="File Card" width="260"></picture><br><b>File Card</b></a></td>
   </tr>
@@ -411,6 +413,9 @@ Click any component to open its live demo, where you can tweak its props and cop
   <tr>
     <td align="center" valign="top" width="33%"><a href="https://uibrik.com/components/area-chart"><picture><source media="(prefers-color-scheme: dark)" srcset="https://uibrik.com/registry/area-chart/thumb-dark-sm.webp"><img src="https://uibrik.com/registry/area-chart/thumb-light-sm.webp" alt="Area Chart" width="260"></picture><br><b>Area Chart</b></a></td>
     <td align="center" valign="top" width="33%"><a href="https://uibrik.com/components/bar-list"><picture><source media="(prefers-color-scheme: dark)" srcset="https://uibrik.com/registry/bar-list/thumb-dark-sm.webp"><img src="https://uibrik.com/registry/bar-list/thumb-light-sm.webp" alt="Bar List" width="260"></picture><br><b>Bar List</b></a></td>
+    <td align="center" valign="top" width="33%"><a href="https://uibrik.com/components/sleep-stages"><picture><source media="(prefers-color-scheme: dark)" srcset="https://uibrik.com/registry/sleep-stages/thumb-dark-sm.webp"><img src="https://uibrik.com/registry/sleep-stages/thumb-light-sm.webp" alt="Sleep Stages" width="260"></picture><br><b>Sleep Stages</b></a></td>
+  </tr>
+  <tr>
     <td align="center" valign="top" width="33%"><a href="https://uibrik.com/components/split-bar"><picture><source media="(prefers-color-scheme: dark)" srcset="https://uibrik.com/registry/split-bar/thumb-dark-sm.webp"><img src="https://uibrik.com/registry/split-bar/thumb-light-sm.webp" alt="Split Bar" width="260"></picture><br><b>Split Bar</b></a></td>
   </tr>
 </table>
@@ -444,10 +449,11 @@ Click any component to open its live demo, where you can tweak its props and cop
   </tr>
   <tr>
     <td align="center" valign="top" width="33%"><a href="https://uibrik.com/components/light-stream"><picture><source media="(prefers-color-scheme: dark)" srcset="https://uibrik.com/registry/light-stream/thumb-dark-sm.webp"><img src="https://uibrik.com/registry/light-stream/thumb-light-sm.webp" alt="Light Stream" width="260"></picture><br><b>Light Stream</b></a></td>
+    <td align="center" valign="top" width="33%"><a href="https://uibrik.com/components/riso-flow"><picture><source media="(prefers-color-scheme: dark)" srcset="https://uibrik.com/registry/riso-flow/thumb-dark-sm.webp"><img src="https://uibrik.com/registry/riso-flow/thumb-light-sm.webp" alt="Riso Flow" width="260"></picture><br><b>Riso Flow</b></a></td>
     <td align="center" valign="top" width="33%"><a href="https://uibrik.com/components/silk-cloth"><picture><source media="(prefers-color-scheme: dark)" srcset="https://uibrik.com/registry/silk-cloth/thumb-dark-sm.webp"><img src="https://uibrik.com/registry/silk-cloth/thumb-light-sm.webp" alt="Silk Cloth" width="260"></picture><br><b>Silk Cloth</b></a></td>
-    <td align="center" valign="top" width="33%"><a href="https://uibrik.com/components/silk-vortex"><picture><source media="(prefers-color-scheme: dark)" srcset="https://uibrik.com/registry/silk-vortex/thumb-dark-sm.webp"><img src="https://uibrik.com/registry/silk-vortex/thumb-light-sm.webp" alt="Silk Vortex" width="260"></picture><br><b>Silk Vortex</b></a></td>
   </tr>
   <tr>
+    <td align="center" valign="top" width="33%"><a href="https://uibrik.com/components/silk-vortex"><picture><source media="(prefers-color-scheme: dark)" srcset="https://uibrik.com/registry/silk-vortex/thumb-dark-sm.webp"><img src="https://uibrik.com/registry/silk-vortex/thumb-light-sm.webp" alt="Silk Vortex" width="260"></picture><br><b>Silk Vortex</b></a></td>
     <td align="center" valign="top" width="33%"><a href="https://uibrik.com/components/topographic-lines"><picture><source media="(prefers-color-scheme: dark)" srcset="https://uibrik.com/registry/topographic-lines/thumb-dark-sm.webp"><img src="https://uibrik.com/registry/topographic-lines/thumb-light-sm.webp" alt="Topographic Lines" width="260"></picture><br><b>Topographic Lines</b></a></td>
   </tr>
 </table>
@@ -490,6 +496,7 @@ Click any component to open its live demo, where you can tweak its props and cop
 | [Effort Dial](https://uibrik.com/components/effort-dial) | A gauge for customer effort scores: a gradient arc fills from green toward red as the knob follows your finger, ticks light as it passes, it settles into the nearest answer, and a hard answer asks what got in the way. | `effort-dial` |
 | [Elastic Slider](https://uibrik.com/components/elastic-slider) | A slider that stretches like rubber past its ends and springs back. | `elastic-slider` |
 | [Email Composer](https://uibrik.com/components/email-composer) | An email composer with recipient chips and suggestions, contact cards on hover, drag-and-drop attachments with upload progress, and a send button that schedules. | `email-composer` |
+| [Energy Flow](https://uibrik.com/components/energy-flow) | A home energy card with solar, battery, grid and house as four nodes and dots that flow along the links at a speed set by the power in kW. Hovering or tapping a node dims every link it isn't part of and shows where its power comes from or goes; below, today's solar and home use curves scrub by the hour and the day's totals count up live. | `energy-flow` |
 | [Event Feed](https://uibrik.com/components/event-feed) | A live feed card where new events drop in at the top with a soft highlight, push the rest down and age in real time. | `event-feed` |
 | [Expand Button](https://uibrik.com/components/expand-button) | An icon-only button that springs open to reveal its label on hover or keyboard focus. | `expand-button` |
 | [Fade In Left to Right](https://uibrik.com/components/fade-left-to-right) | A soft-edged mask reveals the text from left to right. | `fade-left-to-right` |
@@ -538,6 +545,7 @@ Click any component to open its live demo, where you can tweak its props and cop
 | [Particle Scatter](https://uibrik.com/components/particle-scatter) | Each press breaks the phrase into particles that regroup. | `particle-scatter` |
 | [Password Peek](https://uibrik.com/components/password-peek) | A password field whose eye blinks as you toggle it, and whose characters rise into view left to right instead of snapping from dots. | `password-peek` |
 | [Plucked Curve](https://uibrik.com/components/plucked-curve) | Text rides a curve that wobbles like a plucked string. | `plucked-curve` |
+| [Podcast Chapters](https://uibrik.com/components/podcast-chapters) | An episode player whose waveform is split into chapters: the played part fills behind the playhead, the line being spoken writes itself in behind a two-colour gradient trail that settles into the text colour, hovering the waveform previews the time and chapter under the pointer, and the playhead drags with a grip that reads out where it will land. The transcript opens into a full list that follows along and seeks on click, bookmarks drop pins on the waveform, and the chapter list lights its stretch of the waveform on hover and fills as it plays; pass a src to drive it from real audio. | `podcast-chapters` |
 | [Popover](https://uibrik.com/components/popover) | A panel that grows out of its button, flips when there's no room, and keeps its arrow pointed at the button. | `popover` |
 | [Progress](https://uibrik.com/components/progress) | A quiet card of work in flight: each row is the app's mark, what's happening and a thin bar, and opens like a dropdown into facts, steps or one bar per destination. Values ease on a spring, percentages count with the fill, and finishing draws a check. | `progress` |
 | [Progress Dots](https://uibrik.com/components/progress-dots) | Pagination dots where the active one stretches into a pill that fills as it plays, and the row opens into labelled steps on hover. Also comes as full-width story segments. | `progress-dots` |
@@ -549,6 +557,7 @@ Click any component to open its live demo, where you can tweak its props and cop
 | [Reject Drop Input](https://uibrik.com/components/reject-drop-input) | A text input that lets go of characters it can't accept: a rejected letter appears where it was typed, blushes red, tips over its corner and drops out of the field under real gravity, fading as it falls, while a short hint says what the field takes. | `reject-drop-input` |
 | [Request Waterfall](https://uibrik.com/components/request-waterfall) | A network waterfall without the noise: a type icon per request, bars that draw in the order requests started, and hovering one pulls it apart into DNS, connect, TLS, waiting and download, draws guides at its start and end and dims the rest. Opening a row lays out each phase on the same time axis, and hovering a marker dims every request that finished after it. | `request-waterfall` |
 | [Ripple to Still](https://uibrik.com/components/ripple-to-still) | Text ripples like water, then settles. | `ripple-to-still` |
+| [Riso Flow](https://uibrik.com/components/riso-flow) | A flowing gradient printed in grainy spot inks that drift slightly out of register. | `riso-flow` |
 | [Rolling Word](https://uibrik.com/components/rolling-word) | One word rolls to the next like a drum. | `rolling-word` |
 | [Rust Text](https://uibrik.com/components/rust-text) | Brushed steel type that rusts while you watch and flakes away, polished back to a shine wherever the pointer passes. | `rust-text` |
 | [Scatter Text](https://uibrik.com/components/scatter-text) | Phrases shatter into particles that regroup into the next phrase. | `scatter-text` |
@@ -562,6 +571,7 @@ Click any component to open its live demo, where you can tweak its props and cop
 | [Silk Cloth](https://uibrik.com/components/silk-cloth) | A sheet of satin rippling in a light breeze, with a long sheen along every fold. | `silk-cloth` |
 | [Silk Vortex](https://uibrik.com/components/silk-vortex) | Liquid glass streaming outward from a dark void: glossy folds mapped through a colour gradient. | `silk-vortex` |
 | [Skeleton](https://uibrik.com/components/skeleton) | A skeleton measured from the real layout: one bar per wrapped line of text, a box for every image and control, one shimmer across them all, and a top-to-bottom reveal when the content arrives. | `skeleton` |
+| [Sleep Stages](https://uibrik.com/components/sleep-stages) | A week of sleep with a hypnogram per night: a block for every stretch of awake, REM, light and deep sleep, joined by a thin step, with the score and time asleep above. A strip of nights with score bars switches the chart, and the time asleep counts to each night. Each stage's share sits against its typical range; hovering a stage lifts its blocks, and scrubbing lifts the stretch under the cursor and reads its time and length. | `sleep-stages` |
 | [Slot-machine Letters](https://uibrik.com/components/slot-letters) | Each letter spins like a reel and lands on the next word. | `slot-letters` |
 | [Social Avatar](https://uibrik.com/components/social-avatar) | An avatar that fans the person's social accounts out of itself along an arc, with real brand logos that copy the handle or open the profile on press. | `social-avatar` |
 | [Soft Button](https://uibrik.com/components/soft-button) | A plain button made with care: a gentle top-to-bottom gradient, a faint inner highlight and shade, and a crisp border, in primary, secondary and accent. | `soft-button` |

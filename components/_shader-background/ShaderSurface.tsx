@@ -98,7 +98,8 @@ uniform vec3 u_bg;         // page background, OKLab
 uniform float u_dark;      // 0 light .. 1 dark, eased during a theme change
 uniform float u_grain;     // film grain strength
 uniform float u_grainSize; // grain speck size, device px
-uniform vec3 u_ripples[3]; // click rings: position (device px, y up) and age (seconds)
+const int RIPPLE_COUNT = 8; // click rings alive at once (must match RIPPLES below)
+uniform vec3 u_ripples[RIPPLE_COUNT]; // click rings: position (device px, y up) and age (seconds)
 uniform vec3 u_trailPts[16]; // the pointer's recent path, newest first: position and strength 0..1
 uniform int u_trailCount;
 
@@ -133,7 +134,7 @@ vec3 linearToSrgb(vec3 c) {
 // rings sent out by clicks: 1 on a ring's crest, fading as it travels outward
 float ripples(vec2 frag) {
   float sum = 0.0;
-  for (int i = 0; i < 3; i++) {
+  for (int i = 0; i < RIPPLE_COUNT; i++) {
     vec3 r = u_ripples[i];
     if (r.z < 0.0 || r.z > 3.0) continue;
     float d = length(frag - r.xy) - r.z * 460.0 * u_dpr;
@@ -464,7 +465,7 @@ export type ShaderBackgroundProps = {
 
 const BG = { light: hexToOklab("#ffffff"), dark: hexToOklab("#0a0a0a") };
 const MAX_COLORS = 6;
-const RIPPLES = 3; // rings alive at once (must match u_ripples in glsl.ts)
+const RIPPLES = 8; // rings alive at once (must match RIPPLE_COUNT in HEADER, and caustics)
 const RIPPLE_LIFE = 3; // seconds
 const TRAIL = 16; // path points kept for u_trailPts (must match glsl.ts)
 // Resolution steps for a device that can't keep up: judged over each second of motion, a step down

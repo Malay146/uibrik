@@ -38,7 +38,7 @@ uniform float u_rippleSpeed;
 uniform float u_touch;    // depth of the dip under the pointer
 uniform vec2 u_pointer;   // device px, y up
 uniform float u_pointerAmt;
-uniform vec3 u_ripples[3];
+uniform vec3 u_ripples[8]; // matches RIPPLE_COUNT in ShaderSurface
 
 out vec2 v_old;
 out vec2 v_new;
@@ -62,7 +62,7 @@ float height(vec2 p, vec2 px, float unit) {
   h *= u_waves;
 
   // rings from clicks
-  for (int i = 0; i < 3; i++) {
+  for (int i = 0; i < 8; i++) {
     vec3 r = u_ripples[i];
     if (r.z < 0.0 || r.z > 3.0) continue;
     float d = (length(px - r.xy) / unit - r.z * 1.8 * u_rippleSpeed) / u_rippleSize;
