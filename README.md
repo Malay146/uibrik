@@ -3,12 +3,12 @@
 <h1 align="center">uibrik</h1>
 
 <p align="center">
-  <b>143 free, animated React components.</b><br>
+  <b>145 free, animated React components.</b><br>
   Built with Tailwind CSS v4 and Motion. Install with the shadcn CLI, or let your AI agent do it over MCP.
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/components-143%20free-111111?style=flat-square" alt="components: 143 free">
+  <img src="https://img.shields.io/badge/components-145%20free-111111?style=flat-square" alt="components: 145 free">
   <img src="https://img.shields.io/badge/license-MIT-111111?style=flat-square" alt="license: MIT">
   <img src="https://img.shields.io/badge/React-19-111111?style=flat-square" alt="React: 19">
   <img src="https://img.shields.io/badge/Tailwind%20CSS-v4-111111?style=flat-square" alt="Tailwind CSS: v4">
@@ -397,6 +397,9 @@ Click any component to open its live demo, where you can tweak its props and cop
     <td align="center" valign="top" width="33%"><a href="https://uibrik.com/components/event-feed"><picture><source media="(prefers-color-scheme: dark)" srcset="https://uibrik.com/registry/event-feed/thumb-dark-sm.webp"><img src="https://uibrik.com/registry/event-feed/thumb-light-sm.webp" alt="Event Feed" width="260"></picture><br><b>Event Feed</b></a></td>
     <td align="center" valign="top" width="33%"><a href="https://uibrik.com/components/file-card"><picture><source media="(prefers-color-scheme: dark)" srcset="https://uibrik.com/registry/file-card/thumb-dark-sm.webp"><img src="https://uibrik.com/registry/file-card/thumb-light-sm.webp" alt="File Card" width="260"></picture><br><b>File Card</b></a></td>
   </tr>
+  <tr>
+    <td align="center" valign="top" width="33%"><a href="https://uibrik.com/components/package-tracker"><picture><source media="(prefers-color-scheme: dark)" srcset="https://uibrik.com/registry/package-tracker/thumb-dark-sm.webp"><img src="https://uibrik.com/registry/package-tracker/thumb-light-sm.webp" alt="Package Tracker" width="260"></picture><br><b>Package Tracker</b></a></td>
+  </tr>
 </table>
 
 ### Community
@@ -413,9 +416,10 @@ Click any component to open its live demo, where you can tweak its props and cop
   <tr>
     <td align="center" valign="top" width="33%"><a href="https://uibrik.com/components/area-chart"><picture><source media="(prefers-color-scheme: dark)" srcset="https://uibrik.com/registry/area-chart/thumb-dark-sm.webp"><img src="https://uibrik.com/registry/area-chart/thumb-light-sm.webp" alt="Area Chart" width="260"></picture><br><b>Area Chart</b></a></td>
     <td align="center" valign="top" width="33%"><a href="https://uibrik.com/components/bar-list"><picture><source media="(prefers-color-scheme: dark)" srcset="https://uibrik.com/registry/bar-list/thumb-dark-sm.webp"><img src="https://uibrik.com/registry/bar-list/thumb-light-sm.webp" alt="Bar List" width="260"></picture><br><b>Bar List</b></a></td>
-    <td align="center" valign="top" width="33%"><a href="https://uibrik.com/components/sleep-stages"><picture><source media="(prefers-color-scheme: dark)" srcset="https://uibrik.com/registry/sleep-stages/thumb-dark-sm.webp"><img src="https://uibrik.com/registry/sleep-stages/thumb-light-sm.webp" alt="Sleep Stages" width="260"></picture><br><b>Sleep Stages</b></a></td>
+    <td align="center" valign="top" width="33%"><a href="https://uibrik.com/components/cohort-retention"><picture><source media="(prefers-color-scheme: dark)" srcset="https://uibrik.com/registry/cohort-retention/thumb-dark-sm.webp"><img src="https://uibrik.com/registry/cohort-retention/thumb-light-sm.webp" alt="Cohort Retention" width="260"></picture><br><b>Cohort Retention</b></a></td>
   </tr>
   <tr>
+    <td align="center" valign="top" width="33%"><a href="https://uibrik.com/components/sleep-stages"><picture><source media="(prefers-color-scheme: dark)" srcset="https://uibrik.com/registry/sleep-stages/thumb-dark-sm.webp"><img src="https://uibrik.com/registry/sleep-stages/thumb-light-sm.webp" alt="Sleep Stages" width="260"></picture><br><b>Sleep Stages</b></a></td>
     <td align="center" valign="top" width="33%"><a href="https://uibrik.com/components/split-bar"><picture><source media="(prefers-color-scheme: dark)" srcset="https://uibrik.com/registry/split-bar/thumb-dark-sm.webp"><img src="https://uibrik.com/registry/split-bar/thumb-light-sm.webp" alt="Split Bar" width="260"></picture><br><b>Split Bar</b></a></td>
   </tr>
 </table>
@@ -479,6 +483,7 @@ Click any component to open its live demo, where you can tweak its props and cop
 | [Checkbox](https://uibrik.com/components/checkbox) | A checkbox and checkbox group whose check draws itself on, morphs into a dash for a partly ticked select-all, and supports shift-click to tick a whole range at once. | `checkbox` |
 | [Classic Navbar](https://uibrik.com/components/classic-navbar) | A full-width bar that hides while you scroll down and returns on scroll up, with an underline that slides to the current page. Links left, centred or right; zero to two CTAs. | `classic-navbar` |
 | [Code Block](https://uibrik.com/components/code-block) | A code block that shows plain text at once and colours it in place with on-demand Shiki, with tabs that sync across blocks, marked lines, diffs, collapsing and a copy button. | `code-block` |
+| [Cohort Retention](https://uibrik.com/components/cohort-retention) | Weekly retention as the classic triangle: a row per signup cohort, a column per week, each cell shaded by the share still active. Cells fill in a diagonal wave as the weeks unlock. Above, the chosen cohort's curve draws against the dashed average and morphs to each new cohort. Hovering a cell crosses its row and week and reads the users kept and the gap to average; cells switch between shares and user counts. | `cohort-retention` |
 | [Collapsing Breadcrumb](https://uibrik.com/components/collapsing-breadcrumb) | A breadcrumb that folds its middle crumbs into an ellipsis when space runs out and unfolds them in place on hover or tap, each crumb sliding open to its own width. | `collapsing-breadcrumb` |
 | [Command Menu](https://uibrik.com/components/command-menu) | A calm ⌘K command menu: fuzzy and server search, grouped results, nested pages, recents, hotkeys and full keyboard control, with optional filter pills. | `command-menu` |
 | [Compare Slider](https://uibrik.com/components/compare-slider) | A before-and-after frame that sweeps in on first view, with a smooth draggable divider, keyboard support and labels that step aside. | `compare-slider` |
@@ -540,6 +545,7 @@ Click any component to open its live demo, where you can tweak its props and cop
 | [Open Source](https://uibrik.com/components/open-source) | A repository card whose stars, forks and contributor count roll up digit by digit on view, with a sparkline that draws in, a language bar, contributor faces that slide in and fan open, and a live feed of commits, merges and releases. | `open-source` |
 | [Org Chart](https://uibrik.com/components/org-chart) | A pan-and-zoom org chart whose teams grow out of and fold back into their manager, with search that flies to a person, a minimap and profile cards. | `org-chart` |
 | [Outline then Fill](https://uibrik.com/components/outline-fill) | Letters are drawn as outlines, then filled in. | `outline-fill` |
+| [Package Tracker](https://uibrik.com/components/package-tracker) | A parcel on its way, in one wide card. On the left, an isometric city with buildings, parks, traffic and drifting cloud shadows; the route is traced along the streets, numbered pins drop in as each stop is reached and a van drives from one to the next. At the door the van hands the parcel over, the house lights up and the card turns green, and on autoplay the run starts over. On the right, the delivery window narrows as stops go by and counts the drops before yours on the last street, with the driver (call and message), the parcel's details and tracking steps that tick off as the van arrives. Stacks on narrow screens. | `package-tracker` |
 | [Page Indicator](https://uibrik.com/components/page-indicator) | Pagination dashes you can click, scrub, step with arrows or type into. | `page-indicator` |
 | [Pagination](https://uibrik.com/components/pagination) | Pagination that never changes width: the current-page pill slides between slots, page numbers roll like an odometer when the window shifts, and an ellipsis opens into a jump-to-page field. | `pagination` |
 | [Particle Scatter](https://uibrik.com/components/particle-scatter) | Each press breaks the phrase into particles that regroup. | `particle-scatter` |
